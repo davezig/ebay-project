@@ -19,18 +19,17 @@
   </head>
   <body>
     <h1>Search boxes will be here</h1>
-      <input
-        type="text"
-        name="Search 1"
-        id="search1"
-      />
-      <button class="btn btn-primary" id="search1_btn">Search item 1 on eBay</button>
-      <!-- <input type="text" name="Search 2" id="search2" />
-      <button class="btn btn-primary" id="search2_btn">Search item 2 on eBay</button> -->
+    <div class="search-box-flex-container">
+      <input type="text" id="search1" class="term-search-box" />
+      <button class="btn btn-primary term-search-btn" id="search1_btn">
+        Search item 1 on eBay
+      </button>
+      <input type="text" id="search2" class="term-search-box" />
+      <button class="btn btn-primary term-search-btn" id="search2_btn">
+        Search item 2 on eBay
+      </button>
     </div>
-    <h2>
-      This is header 2
-    </h2>
+    <h2>This is header 2</h2>
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
