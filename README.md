@@ -8,7 +8,8 @@
 - [x] create 1 search button
 - [x] 1 index page app with a black background
 - [x] Setup flexbox the right way with a search bar then the button either to the right or directly underneath
-- [ ] The flexbox search button is filling up top to bottom in it's row right now. Fix that.
+- [x] The flexbox search button is filling up top to bottom in it's row right now. Fix that.
+      Move to API stuff for now
 
 #### API from ebay
 
