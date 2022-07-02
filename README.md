@@ -21,4 +21,5 @@
 
 #### Future features
 
-- [ ] Frequently used searches on the right (e.g. show last 10 searches)
+- [ ] Frequently used searches on the right side of the page (e.g. show last 10 searches)
+- [ ] Automatically run searches and perhaps send a notification?
