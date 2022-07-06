@@ -9,4 +9,7 @@ async function getUser() {
 
 // the id of the search button to start the click event listener is #test-api-search-btn
 
-getUser();
+document.getElementById('test-api-search-btn').addEventListener('click', () => {
+  console.log('This is the call to the randomuser api');
+  getUser();
+});
