@@ -26,6 +26,8 @@ async function searchEbay() {
 
 document.getElementById('test-api-search-btn').addEventListener('click', () => {
   console.log('This is the call to the ebay api');
+  document.getElementById('textarea1').innerHTML =
+    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, error facere quibusdam, repellat nihil doloribus praesentium magnam labore eveniet aliquam, consequuntur non nostrum id explicabo voluptatum officiis cupiditate voluptatibus dicta?';
   searchEbay();
 });
 
